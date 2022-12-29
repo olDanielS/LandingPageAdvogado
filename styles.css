@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: block;
+    background-color: #171718; 
+    box-shadow: 0px 3px 10px #280000;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    margin: 0px 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1.3rem;
+    color: #FFF;
+}
+.nav-link:hover{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.7s ease-out;
+}
+.nav-mobile{
+    display:block;
+}
+.mobile-list{
+    display: none;
+}
+.mobile-menu-icon{
+    display: none;
+}
+
+
+.sectionBaner{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.container-banner{
+    height: 60vh;
+    display: flex;
+    width: 100%;
+    background-color: #292929;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-banner img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.5;
+}
+.banner {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align:center;
+   
+}
+.banner h1{
+    color: #FFF;
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+}
+.banner h3{
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 400;
+    opacity: 0.6;
+    letter-spacing: 2rem;
+}
+
+
+@media (max-width: 768px){
+    .mobile-menu-icon{
+        display: flex;
+       
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .nav-list{
+        display: none;
+    }
+    .mobile-list{
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+    .nav-bar{
+        padding: 1.5rem 5rem;
+    }
+    .nav-item{
+        padding-bottom: 10px;
+    }
+    .open{
+        display: flex;
+    }
+    .banner {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        
+    }
+    .banner h1{
+        color: #FFF;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+    }
+    .banner h3{
+        color: #FFF;
+        font-size: 2.5rem;
+        font-weight: 400;
+        opacity: 0.6;
+        letter-spacing: .6rem;
+    }
+}
+@media (max-width: 1025px){
+    .banner {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        text-align:center;
+    }
+    .nav-link{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .nav-item{
+        display: flex;
+    }
+}

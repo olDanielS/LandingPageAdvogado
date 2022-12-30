@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,9 @@
                 </div>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre Mim</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Areas de Atuação</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#Aboutme" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="#atuacoes" class="nav-link">Areas de Atuação</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
                 </ul>
                 <div class="mobile-menu-icon">
@@ -28,24 +28,93 @@
             <div class="nav-mobile">
                 <ul class="mobile-list">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre Mim</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Areas de Atuação</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#Aboutme" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="#atuacoes" class="nav-link">Areas de Atuação</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
                 </ul>
             </div>
         </header>
-        <section class="sectionBaner">
-            <div class="container-banner">
-                <img src="./assets/img/background-img.jpg" alt="" class="background-image">
-            </div>
-            <div class="banner">
-                <h1>Tony Stark</h1>
-                <h3>Advogado</h3>
-            </div>
+        <main>
+            <section class="sectionBaner">
+                <div class="container-banner">
+                    <img src="./assets/img/background-img.jpg" alt="" class="background-image">
+                </div>
+                <div class="banner">
+                    <h1>Tony Stark</h1>
+                    <h3>Advogado</h3>
+                </div>
+            </section>
 
-        </section>
+            <section class="sectionSkills" id="skills">
+                <div class="boxSkills">
+                    <h3>Comunicação rapida</h3>
+                    <p>Uma das estratégias mais eficientes
+                        para sua incorporadora se destacar 
+                       no mercado e impulsionar as vendas
+                        é a construção de uma comunicação
+                        rápida e assertiva com os corretores.</p>
+                </div>
+                <div class="boxSkills">
+                    <h3>Ética</h3>
+                    <p>A ética é um componente indispensável para
+                         qualquer um que busca crescimento por meios 
+                         honestos e pelo trabalho bem-feito. 
+                        </p>
+                </div>
+                <div class="boxSkills">
+                    <h3>Atendimento Personalizado</h3>
+                <p>Entendemos que cada cliente é unico, por isso,
+                    buscamos fornecer um atendimento completo,
+                    eficaz, e que melhor se adapte a cada um de maneira
+                    individual.
+                </p>
+                </div>
+            </section>
+            <section class="sectionPerfil" id="Aboutme">
+                <div class="boxDescription" >
+                    <h2 >Tony Stark</h2>
+                    <h3>Sobre Mim</h3>
+                    <p>Advogado e consultor jurídico. Atuo de forma objetiva na prevenção e solução de conflitos.
+                         Busco honrar e respeitar os direitos do cliente, com a finalidade de conquistar sua segurança
+                        jurídica. Experiência em escritório de advocacia desde 2014. 
+                        Graduado no curso de Direito em 2019 e devidamente inscrito na Ordem dos Advogados do Brasil, 
+                        seccional dos Estados Unidos. Tenho como objetivo alcançar a satisfação do cliente, instruí-lo e orientá-lo
+                         de forma acolhedora sobre sua demanda.
+                </div>
+                <div class="boxPerfil">
+                    <img src="./assets/img/tony.jpg" alt="">
+                </div>   
+            </section>
+            <section class="sectionAtuacoes" id="atuacoes">
+                <div class="titleActuations">
+                    <h3>Áreas de Atuação</h3>
+                </div>
+                <div class="boxesActuations">
+                    <div class="boxAtuacoes">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Direito empresarial</h3>
+                    </div>
+                    <div class="boxAtuacoes">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Direto Patrimonial</h3>
+                    </div>
+                    <div class="boxAtuacoes">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Direto Imobiliario</h3>
+                    </div>
+                    <div class="boxAtuacoes">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Direto Civil</h3>
+                    </div>
+                    
+                   
+                </div>
+            </section>
+
+        </main>
     </div>
     <script src="./js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/5f40e46969.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -9,7 +9,6 @@
 header{
     display: block;
     background-color: #171718; 
-
 }
 .logo{
     width: 80px;
@@ -209,6 +208,56 @@ header{
    font-size: 2rem;
    
 }
+.sectionContatos{
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sectionContatos h3{
+    color: #280000;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.sectionContatos form{
+    display: flex;
+    flex-direction: column;
+}
+.sectionContatos form input{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 1.2rem;
+    background-color: #F4F2F2;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    font-weight: 600;
+}
+.sectionContatos form button{
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 1.2rem;
+    background-color: #280000;
+    color: #FFF;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+}
+.boxContatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.address{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.address p{
+    font-size: 1.3rem;
+
+}
 @media (max-width: 768px){
     .mobile-menu-icon{
         display: flex;
@@ -237,9 +286,7 @@ header{
         display: flex;
     }
     .boxSkills{
-        
         height: 100px;
-        
     }
     .banner { 
         justify-content: center; 
@@ -264,7 +311,6 @@ header{
      }
      .boxDescription p{
         font-size: 1rem;
-        
      }
      .boxPerfil{
         display: flex;
@@ -281,6 +327,7 @@ header{
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         margin: 10px;
     }
+   
 }
 @media (max-width: 1025px){
     .banner {
